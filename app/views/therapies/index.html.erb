@@ -1,1 +1,11 @@
+
 <h1>Welcome to the world of wellness</h1>
+
+<% @therapies.each do |therapy| %>
+  <div>
+    <h2><%= therapy.name %></h2><br />
+    <p><%= therapy.description %></p><br />
+  </div>
+
+  <hr />
+  <% end %>
