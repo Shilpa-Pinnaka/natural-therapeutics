@@ -4,4 +4,6 @@ def index
   @therapies = Therapy.all
 end
 
+
+
 end
